@@ -1,7 +1,7 @@
 jwt:
   token:
-    expiration-minutes: 180m
-    secret: user-secret-secure-token-more-than-256
+    expiration-minutes: 120m
+    secret: user-secret-secure-token-more-than-256-changed
 
 gateway:
   ip: 192.168.200.149
