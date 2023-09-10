@@ -1,0 +1,14 @@
+jwt:
+  token:
+    expiration-minutes: 120m
+    secret: user-secret-secure-token-more-than-256-user-service
+
+gateway:
+  ip: 192.168.200.149
+
+    #spring:
+    #  datasource:
+    #    url: jdbc:h2:mem:testdb
+    #    driver-class-name: org.h2.Driver
+    #    username: sa
+    #    password: "{cipher}AQB0uRaeyYqkefC6PlgmDEhBbgjKgOAg1gfjGAKisiO/BK/Scwn08YCtDHN2iGnllSdeqr9WgCZRmfcUacjVBor7cQBEyDsv1w2yQJJlhBQ/tydoJyP62G+U7OYDL9rmTd6Mz4F52V2FlCJNE/wpdetELw9m/jEM3xB40IPDPELCDFG/8sA0dBBGJEGbQJzUcvo6lgcmWSRjuHspE3z3I10jiNoDO8oVhSMuQOC9fyNjrM/LrCa0odZ887vtQErzvh5kO/ka+v5j++JNKD/+dt6MMoIUUON0MFQhbgnIpPX0yxDYXrpY3mtnlKhMxqT5jHxd8hnZuly/zjNHH3Vi6J2JEcvTxEnkqKvjBDJVxtrTKpclY8tOF/Guk+cxnAJjOfw="

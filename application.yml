@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/bbbicb
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: "0000"
+  kafka:
+    consumer:
+      group-id: api
+      bootstrap-servers: localhost:9092
+      auto-offset-reset: latest
+    producer:
+      bootstrap-servers: localhost:9092
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  client:
+    service-url:
+      default-zone: http://127.0.0.1:8761/eureka
+

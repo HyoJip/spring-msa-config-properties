@@ -1,7 +1,7 @@
 jwt:
   token:
     expiration-minutes: 120m
-    secret: user-secret-secure-token-more-than-256-changed
+    secret: "{cipher}AQBjEqQ0WH1uzmuKPf/nB8JE7BItdTDxfN+5qAt/UVTWb+xyJe8GivRi6oObMerHSa2rzyl0u5JH7VLRVGJVLokNQNizpGqMLSW4TNCx/Kj/qx7sbqWK421DFFC18LQaNL8ZQrzXnDYrxktN6FmPzW5C4ncy0OTaLt+QSlEW7SZYn9iafPIBG0U4iUp4P6z6MRzLgCkx90fMh60vcHj6X/JHoI8W6n9llZZkP9qpDYPoZNfSQjaWvEsfhMe7bTx5CFPmPBX0M17TSbOvnlbz182ifBxJomrBQuLASCxdYP9Gy72FOzaW9s/SSfnBhKGcIp4UsZl/zh0+mlGJJIkVFps7sxalLpY+Zm32Erd7pgHaRLtvzfq/KqDmSSZkBsEcRH7raXBQzc/h9mJs1H7oSpCvzSp76xp5RcLhVZPHfpUcVxHRnunKJuRnpdJYasqEid8="
 
 gateway:
   ip: 192.168.200.149
