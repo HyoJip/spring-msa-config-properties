@@ -4,7 +4,7 @@ jwt:
     secret: user-secret-secure-token-more-than-256-user-service
 
 gateway:
-  ip: 192.168.200.149
+  ip: 172.18.0.7
 
     #spring:
     #  datasource:
